@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/activity_main"
+    android:minWidth="250dp"
+    android:minHeight="40dp"
+    android:previewImage="@mipmap/ic_launcher"
+    android:updatePeriodMillis="1800000"><!--系统为了省电，默认是30分钟更新一次，如果你设置的值比30分钟小，系统也是30分钟才会更新一次。因为需要频繁更新的Widget，需要自己起一个service进行更新了-->
+</appwidget-provider>
